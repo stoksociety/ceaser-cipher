@@ -8,7 +8,8 @@ public class app{
             system.out.println("Enter text ");
             string inputText = scanner.nextLine().ToUppercase();
             system.out.println("Enter key");
-            int key = scanner.nextInt();
+            int key;
+            key = scanner.nextInt();
             Encoding encoding= new Encoding(inputText,key);
             system.out.println(String.format("Your encrypted text is: %s",decoding.decode()));
         }
