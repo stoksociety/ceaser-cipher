@@ -7,7 +7,7 @@ public class decoding{
         aInputText = inputText;
     }
     public string getinputText{
-        return aInputText;
+        return aInputText;// Import the Scanner class
     }
     public int getKey{
         return akey;

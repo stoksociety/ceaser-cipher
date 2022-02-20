@@ -1,5 +1,5 @@
 public class encoding{
-    private int akey;
+   private int akey;
     private string aInputText;
 
     public encoding(String inputText key){
@@ -49,3 +49,7 @@ public class encoding{
             }        }
 }
 
+//1. created a class
+//2.enscapulated it to be private so that it can be accessed within its class
+//3.i used the public modifier which is accessible for all classes
+//4.i used the  getter method // accessor
