@@ -2,7 +2,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class DecodingTest {
+public class TestDecoding {
     Decoding testDecoding = new Decoding( 2, "MGWQRSTU MEWDRFCTR");
     @Test
     public void checkIfSavesInputText()

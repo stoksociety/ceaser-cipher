@@ -1,33 +1,32 @@
-public class encoding{
+public class Encoding{
    private int akey;
-    private string aInputText;
+    private String aInputText;
 
-    public encoding(String inputText key){
+    public void encoding(String InputText,key){
         akey = key;
-        aInputText = inputText;
+        aInputText = InputText;
     }
-    public string getinputText{
+    public String getinputText(){
         return aInputText;
     }
-    public int getKey{
+    public int getKey(){
         return akey;
     }
     public boolean isValidInputText(){
 
         char[] chars= aInputText.toCharArray();
 
-        for(char c: chars){
-            if (!character.isLetter(c) && c != ''){
+        for(var c: chars){
+            if (!(character.isLetter(c) || c == "")){
                 return false;
             }
         }
-        public boolean isValidKey()
-        {
+        public boolean isValidKey() {
             return akey >1 && akey< 26;
 
         }
 
-        public String encode()
+        Public Stringencode()
         {
             String encoded = "";
             String encodedArray[] =aInputText.split("");
@@ -46,8 +45,9 @@ public class encoding{
                 }
             }
             return encoded.toUpperCase();
-            }        }
-}
+            }
+    }
+};
 
 //1. created a class
 //2.enscapulated it to be private so that it can be accessed within its class
